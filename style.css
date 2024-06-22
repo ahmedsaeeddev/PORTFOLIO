@@ -1,0 +1,281 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: mintcream;
+    box-sizing: border-box;
+    font-family: "JetBrains Mono";
+    outline: none;
+    border: none;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--tertiary-color);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-color);
+}
+
+body {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+:root {
+    --primary-color: #24FF00;
+    --secondary-color: #0A0A0A;
+    --tertiary-color: #FAFAF0;
+}
+
+.container .nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.container .nav .logoName {
+    font-size: 21px;
+}
+
+.logoName a {
+    color: var(--primary-color);
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+.container .links a {
+    color: var(--primary-color);
+}
+
+a.contact {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    width: 330px;
+    padding: 10px 30px;
+    border-radius: 150px;
+    border: 2px solid var(--primary-color);
+}
+
+.contact:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+}
+
+.txtArea h2 {
+    color: var(--tertiary-color);
+}
+
+.txtArea h1 {
+    margin-left: 110px;
+}
+
+.hero_section {
+    display: flex;
+    justify-content: space-around;
+    padding: 69px 0;
+    align-items: center;
+}
+
+.hero_section .imgArea {
+    width: 410px;
+}
+
+.hero_section .imgArea img {
+    border-radius: 50%;
+    width: 100%;
+}
+
+.txtArea1 {
+    text-align: center;
+    padding: 0;
+    margin-left: -110px;
+}
+
+.introduction_area {
+    width: 400px;
+    padding: 10px;
+    /* margin: 20px; */
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+.introduction_area h1 {
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.links a:hover {
+    border-bottom: 2px solid;
+}
+
+.links a {
+    padding: 20px;
+}
+
+.introduction_area p {
+    font-size: 20px;
+    margin: 20px 0;
+    line-height: 30px;
+}
+
+.skills .line {
+    width: 250px;
+    height: 16px;
+    margin: 14px;
+    background-color: var(--tertiary-color);
+}
+
+.aboutUs {
+    display: flex;
+    justify-content: center;
+    padding: 28px;
+    gap: 20px;
+    align-items: center;
+}
+
+.skillsName h4 {
+    margin: 11px;
+}
+
+.line2 {
+    margin-top: 19px;
+}
+
+.bar {
+    background-color: var(--primary-color);
+    width: 250px;
+    height: 16px;
+    margin: 14px;
+    margin-left: -10px;
+}
+
+.bar2 {
+    width: 230px;
+}
+
+.bar3 {
+    width: 200px;
+}
+
+.bar4 {
+    width: 190px;
+}
+
+.bar5 {
+    width: 167px;
+}
+
+.landing_pages,
+.web_design,
+.CSS_project,
+.JS_webapp {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+.rt {
+    display: flex;
+    justify-content: end;
+}
+
+.rt div {
+    width: 770px;
+    margin: 10px auto;
+    margin-right: 220px !important;
+    text-align: center;
+    color: var(--tertiary-color);
+}
+
+h2.projects {
+    text-align: center;
+    font-size: 33px;
+    font-weight: bolder;
+}
+
+.lf div {
+    width: 770px;
+    margin-left: 220px !important;
+    margin: 10px auto;
+    text-align: center;
+    color: var(--tertiary-color);
+}
+
+.contact_us {
+    margin-top: 70px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 270px;
+    margin: auto;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border-radius: 45px;
+    margin: 10px;
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
+    font-weight: bold;
+    text-align: center;
+
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 19px;
+    overflow: hidden;
+    resize: none;
+}
+
+form button {
+    padding: 10px;
+    border-radius: 45px;
+    margin: 10px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: var(--tertiary-color);
+}
+
+form button {
+    color: var(--tertiary-color);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+form button:hover {
+    color: var(--primary-color);
+    background-color: var(--tertiary-color);
+}
